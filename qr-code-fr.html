@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Porfolio de Lxs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li><a href="index-fr.html">Information</a></li>
+        <li><a href="projects-fr.html">Projects</a></li>
+        <li><a href="contact-fr.html">Contacter</a></li>
+        <li><a class="active" href="qr-code-fr.html">QR Code Maker</a></li>
+        <li><a href="qr-code.html">English</a></li>
+        <li><a href="https://paul6412.github.io/Project/" style="color:black;">???</a></li>
+
+    </ul>
+    <br>
+    <br>
+    <div class="box">
+        <h1 style="font-weight: 900;font-size: xx-large;text-align: center;float: center;color: black;font-family: Trebuchet MS, Helvetica, sans-serif;">Constructeur de Code QR</h1>
+        <hr/>
+        <div class="sqrcode"></div>
+        <div class="qrcode" style="position: relative;left: 41.5%;size: 50%;"></div>
+        <input type="text" placeholder="Coller un URL ou taper du text" onchange="MakeQr()"/>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
